@@ -1,0 +1,10 @@
+pipeline{
+ stages{
+  stage('choukout code from fit'){
+    steps{
+      sh'''
+      mvn clean install 
+      '''
+
+    }
+ }
